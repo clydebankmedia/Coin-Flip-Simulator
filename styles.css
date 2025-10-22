@@ -1,0 +1,63 @@
+/* styles.css */
+
+/* ===== Page Layout Overrides ===== */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #a8c0ff 0%, #d9e4ff 100%);
+}
+
+/* ===== Card Container ===== */
+.container {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* ===== Headings ===== */
+h1 {
+    color: #333333;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+/* ===== Button Styling ===== */
+button {
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    background: #667eea;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #5a6fd8;
+    transform: translateY(-2px);
+}
+
+/* ===== Result Text and Totals ===== */
+#resultText {
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+    color: #333333;
+}
+
+#totals {
+    margin-top: 2rem;
+}
+
+#totals p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
